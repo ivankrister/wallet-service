@@ -3,7 +3,6 @@
 namespace DotcodeIo\Wallet\Actions;
 
 use DotcodeIo\Wallet\DataTransferObjects\WalletTransferData;
-use DotcodeIo\Wallet\Models\Wallet;
 use DotcodeIo\Wallet\Services\WalletService;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Validation\ValidationException;

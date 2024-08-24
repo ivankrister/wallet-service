@@ -2,7 +2,8 @@
 
 namespace DotcodeIo\Wallet\Services;
 
-use DotcodeIo\Wallet\Models\Wallet;
+use DotcodeIo\Wallet\Facades\WalletFacade as Wallet;
+
 
 class WalletService
 {
@@ -17,7 +18,11 @@ class WalletService
             ]);
 
         if (!$updated) {
-            throw new \Exception("Wallet was updated by another request");
+           // throw new \Exception("Wallet was updated by another request");
+            //abort conflict
+
+            abort(409, "Wallet was updated by another request");
+
         }
 
     }

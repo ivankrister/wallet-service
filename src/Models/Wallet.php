@@ -10,6 +10,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 class Wallet extends Model
 {
     use HasFactory, HasUuids;
+    protected $table = 'wallets';
 
     /**
      * The attributes that are mass assignable.

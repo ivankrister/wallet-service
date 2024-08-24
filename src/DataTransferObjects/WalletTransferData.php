@@ -3,8 +3,7 @@
 namespace DotcodeIo\Wallet\DataTransferObjects;
 
 use DotcodeIo\Wallet\Requests\WalletTransferRequest;
-use DotcodeIo\Wallet\Models\User;
-use DotcodeIo\Wallet\Models\Wallet;
+use DotcodeIo\Wallet\Facades\WalletFacade as Wallet;
 use DotcodeIo\Wallet\ValueObjects\Cents;
 
 class WalletTransferData
