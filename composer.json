@@ -1,0 +1,22 @@
+{
+    "name": "dotcode-io/wallet",
+    "description": "Wallet service",
+    "minimum-stability": "stable",
+    "require": {
+        "laravel/framework": "^11.21"
+    },
+    "require-dev": {
+        "laravel/framework": "^11.21"
+    },
+    "autoload": {
+        "psr-4": {
+            "DotcodeIo\\Wallet\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ivan Krister Garcia",
+            "email": "ivankrister.garcia@gmail.com"
+        }
+    ]
+}
